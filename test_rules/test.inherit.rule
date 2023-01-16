@@ -1,0 +1,8 @@
+rule aesting <- aesting {
+	condition:
+		true
+}
+rule besting {
+	condition:
+		true
+}

@@ -1,0 +1,7 @@
+(menhir
+ (modules parser))
+
+(ocamllex tokenizer)
+
+(library
+ (name yarafront) (modules parser tokenizer))

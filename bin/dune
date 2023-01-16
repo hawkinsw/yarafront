@@ -1,0 +1,4 @@
+(executable
+ (public_name yarafront)
+ (name main)
+ (libraries yarafront) (flags -linkall))
